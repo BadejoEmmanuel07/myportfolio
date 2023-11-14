@@ -13,6 +13,12 @@ const Projects = () => {
       <h1 className="text-3xl font-semibold">Projects</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 p-8">
       {/* E-commerce Web App */}
+      <div >
+      <a
+            href="https://ecoshop-eta.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
       <div className="project-card relative overflow-hidden group">
         <img
           src={ecoshop}
@@ -30,19 +36,25 @@ const Projects = () => {
             real-time updates, enhancing overall efficiency.
           </p>{" "}
           <br />
-          <a
-            href="https://ecoshop-eta.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <p
             className={buttonStyles}
           >
             Visit Project
-          </a>
+          </p>
         </div>
+      </div>
+      </a>
       </div>
 
       {/* Movie Trailer Web App */}
+      <div >
+      <a
+            href="https://my-movieprojecttmb-ficj.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
       <div className="project-card relative overflow-hidden group">
+
         <img
           src={movie}
           alt="Movie Trailer Web App"
@@ -59,18 +71,24 @@ const Projects = () => {
             movie data.
           </p>{" "}
           <br />
-          <a
-            href="https://my-movieprojecttmb-ficj.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <p
+           
             className={buttonStyles}
           >
             Visit Project
-          </a>
+          </p>
         </div>
+      </div>
+      </a>
       </div>
 
       {/* Google Clone */}
+      <div >
+      <a
+            href="https://googleappclone.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
       <div className="project-card relative overflow-hidden group">
         <img
           src={googleshop}
@@ -87,18 +105,24 @@ const Projects = () => {
             Search API for an authentic search experience.
           </p>{" "}
           <br />
-          <a
-            href="https://googleappclone.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <p
             className={buttonStyles}
           >
             Visit Project
-          </a>
+          </p>
         </div>
+      </div>
+      </a>
       </div>
 
       {/* Car Rental Website */}
+      
+      <div >
+      <a
+            href="https://car-rental-teal.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
       <div className="project-card relative overflow-hidden group">
         <img
           src={carrental}
@@ -116,16 +140,17 @@ const Projects = () => {
             pricing information.
           </p>{" "}
           <br />
-          <a
-            href="https://car-rental-teal.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <p
+          
             className={buttonStyles}
           >
             Visit Project
-          </a>
+          </p>
         </div>
       </div>
+      </a>
+      </div>
+
     </div>
     </div>
   );
