@@ -27,8 +27,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center mb-30 gap-[30px] md:pl-12">
-        <p className="mb-2">Tech Stack |</p>
+      <div className="flex flex-col items-center mb-30 gap-[30px] md:pl-12 pt-4">
+        <p className="mb-2">Tech Stack </p>
         <div className="flex flex-wrap justify-center gap-4">
           <img src={Htmlp} alt="" className="image-tech1" />
           <img src={css} alt="" className="image-tech5" />
