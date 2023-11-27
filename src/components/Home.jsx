@@ -1,10 +1,11 @@
 import React from 'react';
 import { Document, Page } from '@react-pdf/renderer';
 import image22 from '../images/gbimg2023-10-25_at_10.57.49_PM-removebg.png';
+import AOS from "./AOS.jsx"
 
 const Home = () => {
   return (
-    <div className="md: my-14 md:h-screen " id="home">
+    <div className="md: my-14 md:h-screen " id="home" data-aos="fade-up">
       <div>
         <div className="flex flex-col md:flex-row items-center justify-center gap-[100px] w-full">
          

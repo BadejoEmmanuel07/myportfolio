@@ -2,9 +2,11 @@ import React from "react";
 import {BiLogoGmail} from  'react-icons/bi';
 import {AiFillLinkedin} from  'react-icons/ai';
 import {AiFillGithub} from  'react-icons/ai';
+import AOS from "./AOS.jsx"
+
 const Contact = () => {
   return (
-    <div className="md:px-10 px-7 my-10" id="contact">
+    <div className="md:px-10 px-7 my-10" id="contact" data-aos="fade-up">
       <div className="flex flex-col md:flex-row">
         {/* text and icons */}
         <div className="md:w-1/2">
