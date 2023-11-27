@@ -5,9 +5,7 @@ import googleshop from "../images/googleclone.jpeg";
 import ecoshop from "../images/ecoshop.jpeg";
 
 const Projects = () => {
-  const buttonStyles =
-    "bg-[#000] text-white rounded-full px-6 py-2 hover:bg-[#000] transition duration-300 z-10";
-
+ 
   return (
     <div className="p-8">
       <h1 className="text-3xl font-semibold">Projects</h1>
@@ -29,18 +27,13 @@ const Projects = () => {
           <p className="font-bold text-lg text-white my-4 md:text-base">
             E-commerce Web App
           </p>
-          <p className="text-gray-300 item text-lg md:text-xs">
+          <p className="text-gray-300 item text-lg md:text-xs pit">
             Built a feature-rich e-commerce web application with secure payment
             gateways, intuitive product navigation, and a dynamic cart system.
             Leveraged API integrations for optimized inventory management and
             real-time updates, enhancing overall efficiency.
           </p>{" "}
-          <br />
-          <p
-            className={buttonStyles}
-          >
-            Visit Project
-          </p>
+         
         </div>
       </div>
       </a>
@@ -64,19 +57,13 @@ const Projects = () => {
           <p className="font-bold text-lg text-white my-4 md:text-base">
             Movie Trailer Web App
           </p>
-          <p className="text-gray-300 item text-lg md:text-sm">
+          <p className="text-gray-300 item text-lg md:text-sm pit">
             Designed and implemented a movie web app focused on watching
             trailers. Users can easily browse and watch trailers for a vast
             collection of movies. Incorporated API integrations for real-time
             movie data.
           </p>{" "}
-          <br />
-          <p
-           
-            className={buttonStyles}
-          >
-            Visit Project
-          </p>
+          
         </div>
       </div>
       </a>
@@ -99,17 +86,12 @@ const Projects = () => {
           <p className="font-bold text-lg text-white my-4 md:text-base">
             Google Clone
           </p>
-          <p className="text-gray-300 item text-lg md:text-xs">
+          <p className="text-gray-300 item text-lg md:text-xs pit">
             Crafted a Google search clone with a replicated interface and
             functionalities of the renowned search engine. Integrated the Google
             Search API for an authentic search experience.
           </p>{" "}
-          <br />
-          <p
-            className={buttonStyles}
-          >
-            Visit Project
-          </p>
+         
         </div>
       </div>
       </a>
@@ -133,19 +115,13 @@ const Projects = () => {
           <p className="font-bold text-lg text-white my-4 md:text-base">
             Car Rental Website
           </p>
-          <p className="text-gray-300 text-lg item md:text-xs">
+          <p className="text-gray-300 text-lg item md:text-xs pit">
             Designed and implemented a responsive car rental website, providing
             users with an intuitive platform to explore, select, and rent
             vehicles. Integrated real-time features like live availability and
             pricing information.
           </p>{" "}
-          <br />
-          <p
           
-            className={buttonStyles}
-          >
-            Visit Project
-          </p>
         </div>
       </div>
       </a>

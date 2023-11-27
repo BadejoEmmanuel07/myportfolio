@@ -14,11 +14,11 @@ const Header = () => {
     <div className="w-full max-w-7xl ">
       <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
-          <span className="text-primary text-black">Emmanuel.dev</span>
+          <span className="text-primary text-black">Emmanuel</span>
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7 text-black"
+          className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7 text-black "
         >
           {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
         </div>

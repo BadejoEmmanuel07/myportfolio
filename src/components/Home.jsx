@@ -1,24 +1,24 @@
 import React from 'react';
-import tailwind from '../images/tailwindcss_at_2.45.40_PM-removebg-preview.png';
-import Bootstrap from '../images/bootstrap2.45.40_PM-removebg-preview.png';
-import Htmlp from '../images/htmlpm-removebg-preview.png';
-import css from '../images/Css_PM-removebg-preview.png';
-import javascript from '../images/javascript_PM-removebg-preview.png';
-import typescript from '../images/typesript_at_2.45.39_PM-removebg-preview.png';
+import { Document, Page } from '@react-pdf/renderer';
 import image22 from '../images/gbimg2023-10-25_at_10.57.49_PM-removebg.png';
-import React22 from '../images/Reacttt.png';
 
 const Home = () => {
   return (
-    <div className="md:px-10 px-3 my-14 md:h-screen bg-[#fff]" id="home">
+    <div className="md: my-14 md:h-screen " id="home">
       <div>
         <div className="flex flex-col md:flex-row items-center justify-center gap-[100px] w-full">
-          {/* image & content */}
-          {/* text */}
-          <div className="text-black">
-            <h6 className="text-3xl mt-12">Hello, I'm</h6>
-            <h1 className="font-semibold md:text-5xl my-4 text-3xl text-yellow ">Badejo Emmanuel</h1>
-            <p className="md:w-96">Frontend developer. I create seamless web experiences for end-users.</p>
+         
+          <div className="back3">
+            <h6 className="text-3xl mt-12">Hi I'm</h6>
+            <h1 className="font-semibold md:text-5xl my-4 text-3xl text-yellow "> Emmanuel</h1>
+            <p className="md:w-96 text-[#90909E]">
+ <span>Junior Frontend Engineer and Digital Marketing Professional</span> <br/> <br/> With a relentless pursuit of web-app perfection, I fuse creativity with strategic marketing insights. From elegant designs to user-centric functionality, I aim to surpass expectations. My dedication extends beyond development, I thrive on crafting web application that resonate and reach audiences through innovative marketing tactics. This holistic approach ensures not just remarkable apps, but enduring user connections
+ </p> <br/>
+
+ <button>
+ <a herf="https://eu.docworkspace.com/d/sIA-b9MvWAab68qoG"></a>
+Download CV
+</button>
           </div>
           <div className="order-first md:order-last relative">
             <div className="back2 two">
@@ -27,18 +27,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center mb-30 gap-[30px] md:pl-12 pt-2">
-        <p className="mb-2">Tech Stack </p>
-        <div className="flex flex-wrap justify-center gap-4">
-          <img src={Htmlp} alt="" className="image-tech1" />
-          <img src={css} alt="" className="image-tech5" />
-          <img src={javascript} alt="" className="image-tech6" />
-          <img src={Bootstrap} alt="" className="image-tech2" />
-          <img src={tailwind} alt="" className="image-tech3" />
-          <img src={typescript} alt="" className="image-tech4" />
-          <img src={React22} alt="" className="image-tech7" />
-        </div>
-      </div>
+    
     </div>
   );
 };

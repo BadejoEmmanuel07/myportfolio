@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 body {
   font-family: "Poppins", sans-serif;
-  background: #fff;
+  background: #FBFBFE;
 
 }
 
@@ -18,6 +18,7 @@ body {
 }
 .img223{
   width: 500px;
+  background-color: #5762E0;
 }
 .zip{
   position: relative;
@@ -86,7 +87,15 @@ body {
   filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
   border-radius: 16px;
 }
-
+.back3 span{
+  font-size: 25px;
+}
+.back3 button{
+  background: #5762E0;
+  color: #fff;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
 .service-card:nth-child(even){
   border: 3px solid white;
 }
@@ -99,11 +108,25 @@ body {
   font-size: 1.5rem;
   line-height: 1.5rem;
 }
+.hem{
+  width:200px;
+  height: 2px;
+  background-color: rgba(128, 128, 128, 0.424);
+}
 @media (max-width: 768px) {
   .item {
     font-size: 0.6rem; 
     line-height: 0.6rem;
   }
+  .back3{
+    padding: 30px;
+  }
+  .about{
+    padding: 30px;
+  }
 
-  
+  .pit{
+    font-size: 1.2rem;
+    line-height: 25px;
+  }
 }
